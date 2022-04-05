@@ -1,0 +1,130 @@
+.container{
+    background-color: rgb(23, 155, 196);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: rgb(29, 154, 212);
+    
+}
+
+.content2{
+    display: flex;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 229px;
+}
+
+
+
+input{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px grey;
+    
+}
+
+#Quantity:hover{
+    opacity: .7;
+    transition: .7s;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 10px white;
+    background-color:rgb(62, 214, 24);
+    border: 2px solid white;
+}
+
+#Price:hover{
+    opacity: .7;
+    transition: .7s;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 10px white;
+    background-color:rgb(62, 214, 24);
+    border: 2px solid white;
+}
+
+#Product:hover{
+    opacity: .7;
+    transition: .7s;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 10px white;
+    background-color:rgb(62, 214, 24);
+    border: 2px solid white;
+}
+
+.second{
+    margin-top: 20px;
+    background-color: red;
+    padding-bottom: 40px;
+    padding-right: 44px;
+}
+
+#btn{
+    background-color:  rgb(235, 27, 12);
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    
+}
+
+#btn:hover{
+    opacity: .7;
+    transition: .7s;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 10px white;
+    border: 3px solid white;
+    background-color:rgb(62, 214, 24);
+    color:white;
+}
+
+.button{
+    display: flex;
+    justify-content: right;
+    padding-right: 180px;
+}
+
+
+
+body{
+    background-color: grey;
+}
+
+label{
+    font-size: larger;
+    font-style: italic;
+}
+
+
+@media (min-width:200px) and (max-width:1000px){
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+}
+
+@media (min-width:200px) and (max-width:1000px){
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+}
+
+@media (min-width:200px) and (max-width:900px){
+    .button{
+        display: flex;
+       
+        align-items: center;        
+    }
+}
+
+.final_price ,#Total{
+    background-color: rgb(231, 182, 182);
+}
